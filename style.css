@@ -1,0 +1,32 @@
+canvas {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+    background-color: yellowgreen;
+}
+button {
+    font-weight: bold;
+}
+
+div{
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+    font-weight: bold;
+  }
+  
+  :-moz-placeholder {
+    font-weight: bold;
+  }
+  
+  ::-moz-placeholder {
+    font-weight: bold;
+  }
+  
+  :-ms-input-placeholder {
+    font-weight: bold;
+  }

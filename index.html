@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">BOOP</h1>
+    <input id="player_1" type="text" placeholder="Enter player 1 name">
+    <input id="player_2" type="text" placeholder="Enter player 2 name">
+    <input id="size" type="number" placeholder="Enter grid size">
+    <input id="kittens" type="number" placeholder="Enter number of kittens">
+    <input id="scoreWin" type="number" placeholder="Enter points to win">
+    <button id="start">Start</button>
+    <button id="reset">Reset</button>
+    <button id="download">Download</button>
+    <canvas width="500" height="500"></canvas>
+    <br>
+    <br>
+    <br>
+    <table id="player1"></table>
+    <table id="player2"></table>
+    <br>
+    <div>
+        Player 1 score : 
+        <span id="score1">0</span>
+        <br>
+        Player 2 score :
+        <span id="score2">0</span>
+    </div>
+    <br>
+    <br>
+    <div id="timer"></div>
+    <audio id="sound" src="win-sound.wav"></audio>
+    <audio id="placed" src="placeKitten.wav"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
